@@ -53,10 +53,7 @@
 
 --------------------------
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-s = input()
-s = s.split()
-x = int(s[0])
-y = int(s[1])
+x, y = map(int,input().split())
 for i in range(0,x//2):
     print((".|."*(2*(i+1) - 1)).center(y,"-"))
 print("WELCOME".center(y,"-"))
