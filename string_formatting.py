@@ -1,24 +1,24 @@
-Given an integer, , print the following values for each integer  from  to :
+# Given an integer, , print the following values for each integer  from  to :
 
-Decimal
-Octal
-Hexadecimal (capitalized)
-Binary
-The four values must be printed on a single line in the order specified above for each  from  to . Each value should be space-padded to match the width of the binary value of .
+# Decimal
+# Octal
+# Hexadecimal (capitalized)
+# Binary
+# The four values must be printed on a single line in the order specified above for each  from  to . Each value should be space-padded to match the width of the binary value of .
 
-Input Format
+# Input Format
 
-A single integer denoting .
+# A single integer denoting .
 
-Constraints
+# Constraints
 
-Output Format
+# Output Format
 
-Print  lines where each line  (in the range ) contains the respective decimal, octal, capitalized hexadecimal, and binary values of . Each printed value must be formatted to the width of the binary value of .
+# Print  lines where each line  (in the range ) contains the respective decimal, octal, capitalized hexadecimal, and binary values of . Each printed value must be formatted to the width of the binary value of .
 
-Sample Input
+# Sample Input
 
-17
+# 17
 
 
 ----------------------
