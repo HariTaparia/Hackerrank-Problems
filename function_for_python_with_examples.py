@@ -38,5 +38,14 @@ String manupulation
 
 ----textwrap-----
 >>> import textwrap
->>> wrapped_text = textwrap.wrap(*string_name*,*wrap_width*)
+>>> wrapped_text = textwrap.fill(*string_name*,*wrap_width*)
 >>>>>>wrapped text
+>>> width_list = textwrap.wrap(*string_name*,*wrap_width*)
+>>>>>['wrap','ped ','list']
+----converters------
+>>>int(*input*)                     //interger output
+>>>str(*input*)                     //string output
+>>>bin(*integer_input*)             //Binary Output
+>>>oct(*integer_input*)            //Octagonal Output
+>>>hex(*integer_input*)            //Hexadecimal Output
+
